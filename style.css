@@ -21,6 +21,12 @@ body {
 
 .stats-container {
     display: flex;
+    align-items: center;   /* centers items vertically */
+    justify-content: space-between;  /* optional – spreads cards nicely */
+}
+.stats-container :hover {
+    cursor: pointer;
+    box-shadow : 0 0 30px lightblue;
 }
 
 .stats-card {
